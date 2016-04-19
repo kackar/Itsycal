@@ -224,7 +224,7 @@
     // Use the Scripting Bridge to open Calendar.app on the
     // date selected in our calendar.
     
-    SBCalendarApplication *calendarApp = [SBApplication applicationWithBundleIdentifier:@"com.apple.iCal"];
+    SBCalendarApplication *calendarApp = [SBApplication applicationWithBundleIdentifier:@"am.sunrise.mac"];
     if (calendarApp == nil) {
         NSString *message = NSLocalizedString(@"The Calendar application could not be found.", @"Alert box message when we fail to launch the Calendar application");
         NSAlert *alert = [NSAlert new];
